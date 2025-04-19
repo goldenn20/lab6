@@ -1,0 +1,30 @@
+﻿<Window x:Class="_2sem_3lab.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2sem_3lab"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="300">
+    <Grid Height="504">
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_File">
+                <MenuItem Header="_Open" Click="mnuOpen_Click" />
+                <MenuItem Header="_Save" Click="mnuSave_Click" />
+                <Separator />
+                <MenuItem Header="_Exit" />
+            </MenuItem>
+            <MenuItem Header="_Timers">
+
+                <MenuItem Header="_Get Time!" Click="mnuGettime_Click" />
+                <MenuItem Header="_New" Click="mnuNew_Click" />
+                <MenuItem Header="_Edit" Click="mnuEdit_Click" />
+                <Separator />
+                <MenuItem Header="_Delete" Click="mnuDelete_Click" />
+            </MenuItem>
+        </Menu>
+        <ListBox x:Name="LB1" Margin="0,22,0,76" SelectionChanged="LB1_SelectionChanged"/>
+        <Button x:Name="btn_gettime" Content="Добавить сохраненный таймер в список" Margin="10,430,10,49" Click="btn_gettime_Click"/>
+
+    </Grid>
+</Window>

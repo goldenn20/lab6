@@ -1,0 +1,19 @@
+﻿<Window x:Class="_2sem_3lab.GetTimeWnd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2sem_3lab"
+        mc:Ignorable="d"
+        Title="GetTimeWnd" Height="199.4" Width="300">
+    <Grid>
+        <Label Content="Осталось:" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Label x:Name="LBL_Remain" Content="Label" HorizontalAlignment="Center" Margin="0,31,0,0" VerticalAlignment="Top" Width="180"/>
+        <Button x:Name="BTN_View_1" Content="1" HorizontalAlignment="Left" Margin="87,118,0,0" VerticalAlignment="Top" Height="20" Width="20" Click="BTN_View_1_Click"/>
+        <Button x:Name="BTN_View_2" Content="2" HorizontalAlignment="Left" Margin="124,118,0,0" VerticalAlignment="Top" Height="20" Width="20" Click="BTN_View_2_Click"/>
+        <Button x:Name="BTN_View_3" Content="3" HorizontalAlignment="Left" Margin="162,118,0,0" VerticalAlignment="Top" Height="20" Width="20" Click="BTN_View_3_Click"/>
+        <Button x:Name="BTN_View_4" Content="4" HorizontalAlignment="Left" Margin="198,118,0,0" VerticalAlignment="Top" Height="20" Width="20" Click="BTN_View_4_Click"/>
+        <Label Content="Изменить вариант отображения:" HorizontalAlignment="Left" Margin="60,0,0,0" VerticalAlignment="Center"/>
+
+    </Grid>
+</Window>
