@@ -9,7 +9,7 @@
     <Grid>
         <Label Content="Осталось:" HorizontalAlignment="Center" VerticalAlignment="Top"/>
         <Label x:Name="LBL_Remain" Content="Label" HorizontalAlignment="Center" Margin="0,31,0,0" VerticalAlignment="Top" Width="180"/>
-        <Button x:Name="BTN_View_1" Content="1" HorizontalAlignment="Left" Margin="87,118,0,0" VerticalAlignment="Top" Height="20" Width="20" Click="BTN_View_1_Click"/>
+        <Button x:Name="BTN_View_1" Content="1" HorizontalAlignment="Left" Margin="84,118,0,0" VerticalAlignment="Top" Height="20" Width="19" Click="BTN_View_1_Click"/>
         <Button x:Name="BTN_View_2" Content="2" HorizontalAlignment="Left" Margin="124,118,0,0" VerticalAlignment="Top" Height="20" Width="20" Click="BTN_View_2_Click"/>
         <Button x:Name="BTN_View_3" Content="3" HorizontalAlignment="Left" Margin="162,118,0,0" VerticalAlignment="Top" Height="20" Width="20" Click="BTN_View_3_Click"/>
         <Button x:Name="BTN_View_4" Content="4" HorizontalAlignment="Left" Margin="198,118,0,0" VerticalAlignment="Top" Height="20" Width="20" Click="BTN_View_4_Click"/>
